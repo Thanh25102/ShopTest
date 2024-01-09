@@ -10,7 +10,7 @@ import (
 func Routes() {
 	route := gin.Default()
 	route.Use(cors.New(cors.Config{
-		AllowOrigins: []string{"http://localhost:3000"},
+		AllowOrigins: []string{"http://localhost:3000","http://103.20.102.120:3000"},
 		AllowMethods: []string{"PUT", "PATCH", "GET", "POST", "DELETE"},
 		AllowHeaders: []string{"Content-Type,access-control-allow-origin, access-control-allow-headers"},
 	}))
