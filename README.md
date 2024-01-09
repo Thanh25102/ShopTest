@@ -6,7 +6,7 @@ This project was bootstrapped with docker compose
 
 # Change env file in ./shop-test/.env to localhost
 
-### `REACT_APP_BACKEND_API_URL=http://localhost:8080`
+### `REACT_APP_BACKEND_API_URL=http://localhost:3001`
 
 ## Available Scripts
 
