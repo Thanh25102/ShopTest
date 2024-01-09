@@ -1,0 +1,36 @@
+.App {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    flex-wrap: wrap;
+    padding: 0 20px;
+    max-width: 760px;
+    margin: 0 auto
+}
+
+.App::before {
+    content: "";
+    display: block;
+    position: fixed;
+    width: 300%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    border-radius: 100%;
+    transform: translateX(-50%) skewY(-8deg);
+    background-color: #f6c90e;
+    z-index: -1;
+    -webkit-animation: App_wave_3CtRm 8s ease-in-out infinite alternate;
+    animation: bgAnimation 8s ease-in-out infinite alternate;
+}
+
+@keyframes bgAnimation {
+    0% {
+        transform: translateX(-50%) skew(0deg,-8deg);
+    }
+    100% {
+        transform: translateX(-30%) skew(8deg,-4deg);
+    }
+}

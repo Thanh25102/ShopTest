@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../nginx/.idea/nginx.iml" filepath="$PROJECT_DIR$/../nginx/.idea/nginx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../shop-test/.idea/shop-test.iml" filepath="$PROJECT_DIR$/../shop-test/.idea/shop-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/shop-test-api.iml" filepath="$PROJECT_DIR$/.idea/shop-test-api.iml" />
+    </modules>
+  </component>
+</project>

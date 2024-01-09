@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4f7a739d-bd91-4576-9296-08ce53d60969" name="Changes" comment="complete">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-test-api/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-test-api/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-test-api/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-test-api/.idea/shop-test-api.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-test-api/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-test-api/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-test-api/db/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-test-api/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-test-api/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-test-api/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-test-api/mock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-test-api/src/controllers/carts.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-test-api/src/controllers/products.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-test-api/src/models/cart-item.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-test-api/src/models/product.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-test-api/src/models/setup.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-test-api/src/routes/routes.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-test/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-test/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-test/src/api_instance.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-test/src/card/Card.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-test/src/card/Card.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-test/src/card/item/CartItem.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-test/src/card/item/CartItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-test/src/card/item/ProductItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-test/src/mock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop-test/src/type.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-test/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/shop-test/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-test/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/shop-test/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-test/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/shop-test/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-test/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/shop-test/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-test/src/App.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-test/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/shop-test/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop-test/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/shop-test/src/index.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" url="file://$PROJECT_DIR$/../../../Program Files/Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2ahwg3mdlN0ktJ4GUpXh4xuRrAy" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.automatic.dependencies.download": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "git-widget-placeholder": "master",
+    "go.import.settings.migrated": "true",
+    "go.sdk.automatically.set": "true",
+    "last_opened_file_path": "C:/DiskLearn/GoLand/shop",
+    "nodejs_package_manager_path": "npm"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-gosdk-266795519c66-911b893a1778-org.jetbrains.plugins.go.sharedIndexes.bundled-GO-233.13135.104" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/shop-test/node_modules/tailwindcss/stubs/tailwind.config.js" />
+        <option value="$PROJECT_DIR$/shop-test/node_modules/tailwindcss/stubs/tailwind.config.cjs" />
+      </list>
+    </option>
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+</project>

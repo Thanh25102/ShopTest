@@ -1,0 +1,48 @@
+version: '3.7'
+
+services:
+  backend:
+    build:
+      context: ./shop-test-api
+    ports:
+      - "8080:8080"
+    depends_on:
+      - db
+    networks:
+      - app_network
+    restart: always
+
+  db:
+    image: mysql:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: Thanh25102
+    networks:
+      - app_network
+    restart: always
+    volumes:
+      - ./.docker/mysql:/var/lib/mysql
+
+  adminer:
+    image: adminer
+    ports:
+      - "8081:8080"
+    networks:
+      - app_network
+
+  frontend:
+    build:
+      context: ./shop-test
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+    networks:
+      - app_network
+
+networks:
+  app_network:
+    driver: bridge
+    ipam:
+      driver: default
+      config:
+        - subnet: 172.27.22.0/24
